@@ -13,10 +13,8 @@ import {
   Column,
 } from '@react-email/components'
 
-const baseUrl = process.env.VERCEL_URL
-  ? `https://${process.env.VERCEL_URL}`
-  : '/static'
-
+// configure assest folder based on node environment
+const baseUrl = process.env.VERCEL_URL ? `${process.env.VERCEL_URL}` : '/static'
 interface SpringMailProps {
   userName: string
 }
@@ -24,7 +22,7 @@ interface SpringMailProps {
 export const SpringSalesMail = ({ userName = 'Mary' }: SpringMailProps) => (
   <Html>
     <Head />
-    <Preview>Spring flower sales💐 Don't miss out!</Preview>
+    <Preview>Brighten up your home for less with our flower sale!</Preview>
     <Body style={main}>
       <Container style={parentContainer}>
         <Link href='#' style={headingLink}>
@@ -76,7 +74,6 @@ export const SpringSalesMail = ({ userName = 'Mary' }: SpringMailProps) => (
               </Link>
             </Section>
             <Hr style={{ margin: '1.5rem 0' }} />
-            {/* social links */}
             <Section style={socialLinks}>
               <Row>
                 <Column align='left'>
@@ -165,22 +162,23 @@ const container = {
 const heroSection = {
   position: 'relative' as const,
   width: '100%',
+  display: 'inline-block',
 }
 
 const banner = {
   width: 'inherit' as const,
-  height: '307px',
+  height: 'auto',
 }
 
 const cta = {
   padding: '13px 20px',
   borderRadius: '5px',
   backgroundColor: '#D13928',
+  textAlign: 'center' as const,
   color: '#fff',
-  position: 'absolute' as const,
-  bottom: '10px',
-  left: '50%',
-  transform: 'translateX(-50%)',
+  display: 'block',
+  width: '45%',
+  margin: '0.5rem auto 0 auto',
 }
 
 const secondaryCTA = {
@@ -232,6 +230,7 @@ const socialIcon = {
   display: 'flex',
   width: '30px',
   height: '30px',
+  margin: '0 0.5rem',
   alignItems: 'center',
   justifyContent: 'center',
   borderRadius: '50%',
