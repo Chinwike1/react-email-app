@@ -22,7 +22,7 @@ interface SpringMailProps {
 export const SpringSalesMail = ({ userName = 'Mary' }: SpringMailProps) => (
   <Html>
     <Head />
-    <Preview>Brighten up your home for less with our flower sale!</Preview>
+    <Preview>Brighten up your home for less!</Preview>
     <Body style={main}>
       <Container style={parentContainer}>
         <Link href='#' style={headingLink}>
