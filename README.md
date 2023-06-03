@@ -1,8 +1,8 @@
-### Description
+## Description
 
 This is an application built with [Next.js](https://nextjs.org/) to create and send React email templates using [React Email](https://react.email) and [Nodemailer](https://nodemailer.com/about/).
 
-### Features
+## Features
 
 - Next.js 13 (App Router)
 - TypeScript
@@ -11,15 +11,15 @@ This is an application built with [Next.js](https://nextjs.org/) to create and s
 - Nodemailer
 - Email service: Google Mail.
 
-### Getting Started
+## Getting Started
 
 First, install the project dependencies:
 
 ```bash
-npm install:all
+npm run install:all
 ```
 
-### Development
+## Development
 
 Run the the Next.js app, React Email's preview server, or the both:
 
@@ -38,11 +38,11 @@ The root Next.js app runs on **localhost:3000** while React Email's preview serv
 
 You can start creating or editing email templates by modifying files in `react-email-starter/emails`. The page auto-updates as you edit the file.
 
-### Google Mail Setup
+## Google Mail Setup
 
 To send emails from your Google account, Google requires you to enable 2FA and [generate an application password](https://support.google.com/accounts/answer/185833?hl=en). Follow the steps on that page to create yours and add to your `.env` file.
 
-### Learn More
+## Learn More
 
 To learn more about React Email and Next.js, take a look at their documentation:
 

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "install:all": "npm install && cd react-email-starter && npm install",
     "dev": "concurrently \"npm run dev:root\" \"npm run dev:preview\"",
     "dev:root": "next dev",
     "dev:preview": "cd react-email-starter && npm run dev",
