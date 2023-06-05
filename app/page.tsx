@@ -44,7 +44,7 @@ export default function Home() {
           <BsGithub className='w-6 h-6 transition-colors cursor-pointer hover:fill-offwhite-800' />
         </Link>
       </div>
-      <h2 className='w-full mx-auto my-20 text-3xl font-bold text-center break-words md:my-36 lg:w-4/5 md:text-4xl'>
+      <h2 className='w-full mx-auto my-20 text-3xl font-bold text-center break-words md:my-16 lg:w-4/5 md:text-4xl'>
         Enter{' '}
         <Link
           href='https://react.email'
