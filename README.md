@@ -1,3 +1,7 @@
+## Demo
+
+![React Email App demo showing email sent to recipient address in form.](https://blog.logrocket.com/wp-content/uploads/2023/06/react-email-template-demo.gif)
+
 ## Description
 
 This is an application built with [Next.js](https://nextjs.org/) to create and send React email templates using [React Email](https://react.email) and [Nodemailer](https://nodemailer.com/about/).
@@ -40,7 +44,7 @@ You can start creating or editing email templates by modifying files in `react-e
 
 ## Google Mail Setup
 
-To send emails from your Google account, Google requires you to enable 2FA and [generate an application password](https://support.google.com/accounts/answer/185833?hl=en). Follow the steps on that page to create yours and add to your `.env` file.
+To send emails from your Google account, Google requires you to enable 2FA and [generate an application password](https://support.google.com/accounts/answer/185833?hl=en). Follow the steps on that page to create yours and add to your `.env.local` file.
 
 ## Learn More
 
@@ -49,8 +53,4 @@ To learn more about React Email and Next.js, take a look at their documentation:
 - [React Email](https://react.email) - a collection of React templates for creating emails.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 
-<!-- ## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
+<!-- TODO: add section on deployment config -->
