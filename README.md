@@ -1,7 +1,3 @@
-## Demo
-
-![React Email App demo showing email sent to recipient address in form.](https://blog.logrocket.com/wp-content/uploads/2023/06/react-email-template-demo.gif)
-
 ## Description
 
 This is an application built with [Next.js](https://nextjs.org/) to create and send React email templates using [React Email](https://react.email) and [Nodemailer](https://nodemailer.com/about/).
@@ -28,13 +24,13 @@ npm run install:all
 Run the the Next.js app, React Email's preview server, or the both:
 
 ```bash
-  #run root app and email preview server
+  #run root app
   npm run dev
 
-  #run root app only
-  npm run dev:root
+  #run email preview only
+  npm run preview
 
-  # run preview server only
+  #run root app and email preview server
   npm run dev:preview
 ```
 

@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer'
 import { render } from '@react-email/render'
-import { SpringSalesMail } from '../../../react-email-starter/emails/spring-sales'
+import { SpringSalesMail } from '../../../react-email-starter/emails/marketing/spring-sales'
 
 export async function POST(req: Request) {
   const { name, email } = await req.json()

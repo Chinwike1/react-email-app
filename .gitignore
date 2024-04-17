@@ -2,6 +2,7 @@
 
 # react-email preview
 .react-email
+pnpm-lock.yml
 
 # dependencies
 node_modules

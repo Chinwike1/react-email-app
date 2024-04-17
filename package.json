@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "install:all": "npm install && cd react-email-starter && npm install",
-    "dev": "concurrently \"npm run dev:root\" \"npm run dev:preview\"",
-    "dev:root": "next dev",
-    "dev:preview": "cd react-email-starter && npm run dev",
+    "turbo": "next dev --turbo",
+    "dev": "next dev",
+    "preview": "cd react-email-starter && npm run dev",
+    "dev:preview": "concurrently \"npm dev\" \"npm run preview\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -17,7 +18,7 @@
     "@types/react": "18.0.38",
     "@types/react-dom": "18.0.11",
     "autoprefixer": "10.4.14",
-    "next": "13.3.1",
+    "next": "14.1.0",
     "nodemailer": "^6.9.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
